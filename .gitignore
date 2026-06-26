@@ -1,0 +1,30 @@
+# Backend
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/dist/
+backend/build/
+
+# Flutter
+admin_app/.dart_tool/
+admin_app/build/
+rider_app/.dart_tool/
+rider_app/build/
+driver_app/.dart_tool/
+driver_app/build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
