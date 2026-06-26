@@ -1,0 +1,29 @@
+name: wtm_ride_rider
+description: "WTM RIDE - Rider App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  provider: ^6.0.0
+  google_maps_flutter: ^2.2.0
+  geolocator: ^9.0.0
+  intl: ^0.18.0
+  flutter_dotenv: ^5.1.0
+  shared_preferences: ^2.1.0
+  socket_io_client: ^2.0.0
+  google_maps_flutter_web: ^0.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
